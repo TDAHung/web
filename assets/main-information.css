@@ -1,0 +1,16 @@
+/* brand */
+.brands {
+    position: relative;
+}
+
+.brands .row-option {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.brands .brand-tittle {
+    position: absolute;
+    right: 50%;
+    transform: scaleX();
+}

@@ -1,0 +1,44 @@
+/* FULL HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--Noto-serif);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+:root {
+    --main-color: rgb(0, 164, 153);
+    --grey-black-color: rgb(65, 64, 66);
+    --main-color-font: rgba(64, 65, 66, 0.05);
+    /* cho tieu de */
+    --Noto-sans: 'Noto Sans', sans-serif;
+    /* cho content */
+    --Noto-serif: 'Noto Serif', serif;
+}
+
+/* FULL HTML */
