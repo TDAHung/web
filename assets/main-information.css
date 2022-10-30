@@ -1,25 +1,23 @@
-/* brand */
+/* skincare */
+.skincare .content {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: var(--Noto-serif);
+    font-size: 1.25rem;
+}
 
+/* skincare */
+
+/* brand */
 .brands .row-option {
     display: flex;
     justify-content: space-between;
-    padding: 3rem 0;
-}
-
-.brands .brand-tittle {
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.5rem;
-    font-family: var(--Noto-serif);
-    color: var(--main-color-font);
-}
-
-.brands .brand-tittle a {
-    border: 1px solid rgb(0, 0, 0, 0.3);
-    padding: 0.5rem 3rem;
-    border-radius: 1rem;
+    flex-wrap: wrap;
 }
 
 .brands .col-option {
-    width: calc(100%/5 - 10rem);
+    width: 15rem;
+    margin: 3rem 0;
 }
+
+/* brands */
